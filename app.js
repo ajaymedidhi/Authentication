@@ -6,7 +6,7 @@ const sqlite3 = require("sqlite3");
 const app = express();
 const bcrypt = require("bcrypt");
 
-const dbPath = path.join(__dirname, "goodreads.db");
+const dbPath = path.join(__dirname, "userData.db");
 
 let db = null;
 
